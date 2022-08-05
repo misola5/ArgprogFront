@@ -1,0 +1,8 @@
+.estudios {
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;   
+}
+#uba {
+    padding-right: 10%;
+}
