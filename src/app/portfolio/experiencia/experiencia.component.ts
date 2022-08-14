@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AnyForUntypedForms } from '@angular/forms';
+import { faTimes} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-experiencia',
@@ -12,8 +12,10 @@ export class ExperienciaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  faTimes=faTimes
 
 }
+
 
 /*
 */

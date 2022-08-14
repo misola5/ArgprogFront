@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faCoffee, faTimes, faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+  faCoffee = faCoffee;
+  faTimes= faTimes
+  faPlusCircle = faPlusCircle
+
+  
+  
 }

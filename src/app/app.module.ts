@@ -6,6 +6,11 @@ import { HeaderComponent } from './portfolio/header/header.component';
 import { DatospersonalesComponent } from './portfolio/datospersonales/datospersonales.component';
 import { EstudiosComponent } from './portfolio/estudios/estudios.component';
 import { ExperienciaComponent } from './portfolio/experiencia/experiencia.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ServiceService } from './portfolio/servicios/service.service';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
@@ -16,9 +21,13 @@ import { ExperienciaComponent } from './portfolio/experiencia/experiencia.compon
     ExperienciaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    FontAwesomeModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

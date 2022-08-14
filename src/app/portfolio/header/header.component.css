@@ -9,3 +9,14 @@
     height: auto;
     border-radius: 50%;
   }
+
+#barrita {
+    
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #in {
+    color: white;
+    cursor: pointer;
+  }
